@@ -521,17 +521,17 @@ Transforming a passive monitoring device into an active environmental control sy
 
 ---
 
-# 👨‍💻 Project Team
+# 👨‍💻 Author
 
-Developed as an Embedded IoT Prototype using ESP32.
+Developed by ChithraLekha B.
+Electronics and Communication Engineering Student  
+Passionate about Embedded Systems, IoT, and AI-based solutions
 
 ---
 
 # 📜 License
 
-This project is developed for educational and research purposes.
-
-
+This project represents my effort toward building practical IoT solutions that address real-world challenges using embedded systems and intelligent automation.
 
 
 
