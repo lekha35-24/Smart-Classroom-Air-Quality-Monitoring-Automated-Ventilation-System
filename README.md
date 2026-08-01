@@ -2,7 +2,6 @@
 
 ## 🚨 Automated Indoor Air Quality Monitoring and Ventilation System using ESP32
 
-(https://via.placeholder.com/1200x400)
 
 ---
 
@@ -211,19 +210,47 @@ Fresh Air Circulation Improves
 
 
  LED Indicators
+
+
       |
+
+
 Green / Yellow / Red
+
+
       |
+
+
     Buzzer
+
+
       |
+
+
  Warning Alert
+
+
       |
+
+
  Servo Motor
+
+
       |
+
+
 Automatic Window Control
+
+
       |
+
+
  Fan Indicator LED
+
+
       |
+
+
 Ventilation Control
 
 
@@ -254,22 +281,43 @@ Values are converted into air quality levels.
 
 Logic:
 LOW Pollution
+
+
 ↓
+
+
 GOOD
+
+
 ↓
+
+
 Green LED ON
 
 
 Medium Pollution
+
+
 ↓
+
+
 WARNING
+
 ↓
+
+
 Yellow LED 
 
 High Pollution
+
 ↓
+
+
 DANGER
+
 ↓
+
+
 Red LED
 Fan ON
 Window Opens
