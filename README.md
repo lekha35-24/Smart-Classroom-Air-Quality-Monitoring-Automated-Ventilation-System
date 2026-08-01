@@ -1,77 +1,74 @@
-# Smart-Classroom-Air-Quality-Monitoring-Automated-Ventilation-System
-A smart embedded system that detects deteriorating indoor air conditions and automatically responds through ventilation control instead of only monitoring.
-🚨 Problem Statement
-Poor Indoor Air Quality in Classrooms
+# 🌿 Smart Classroom Air Quality Management System (SCAQMS)
+
+## 🚨 Automated Indoor Air Quality Monitoring and Ventilation System using ESP32
+
+![Project Banner](https://via.placeholder.com/1200x400)
+
+---
+
+# 📌 Overview
+
+The **Smart Classroom Air Quality Management System (SCAQMS)** is an IoT-based embedded system designed to monitor indoor air quality and automatically improve ventilation conditions.
+
+The system detects changes in air pollution levels using simulated environmental parameters and takes automatic corrective actions:
+
+- 🌀 Activates ventilation fan
+- 🪟 Opens window automatically using servo motor
+- 🔊 Generates alerts during unsafe conditions
+- 💡 Displays real-time air quality status
+- 📟 Provides live monitoring through OLED display
+
+The prototype is developed using **ESP32 and simulated sensors in Wokwi**, representing a real-world smart building automation solution.
+
+---
+
+# 🌍 Problem Statement
+
+## "Poor Indoor Air Quality in Classrooms Reduces Student Health, Comfort and Learning Performance"
+
 Modern classrooms often have:
 
-High student density
-Closed windows
-Limited ventilation
+- 40+ students in enclosed spaces
+- Limited ventilation
+- Continuous AC usage
+- Closed windows
 
+During long sessions:
 
-This causes accumulation of:
-Increased CO₂ concentration due to human respiration
-Particulate matter (PM2.5) from dust and movement
-Reduced freshness of air leading to fatigue, reduced concentration and discomfort
+- CO₂ concentration increases due to human breathing
+- Dust particles and pollutants accumulate
+- Poor ventilation causes fatigue, reduced attention and discomfort
 
-Real-Life Scenario
-A classroom with 40 students and closed ventilation:
+The biggest problem is:
 
-Students continuously consume oxygen and release CO₂
-CO₂ levels gradually increase
-Poor ventilation traps pollutants
-Students experience:
-Sleepiness
-Headache
-Reduced attention span
-The issue is that the problem is usually noticed only after human discomfort occurs.
-Why This Problem Matters
-Key Statistics
-Indoor air can be 2–5 times more polluted than outdoor air due to accumulation of pollutants.
+> "Indoor air quality problems remain unnoticed until students experience reduced concentration or discomfort."
 
-Studies show that elevated CO₂ levels in classrooms are associated with reduced cognitive performance and concentration.
+---
 
-According to indoor air quality guidelines:
+# 📊 Problem Impact & Statistics
 
-CO₂ below ~800 ppm → Good ventilation
+## Indoor Air Quality Concerns
 
-800–1200 ppm → Moderate
+- Humans spend approximately **90% of their time indoors**, making indoor air quality a major health factor.
 
-Above 1500 ppm → Poor ventilation condition
-Existing Solutions
-1. Manual Ventilation
-Approach:
-Teachers open windows when students feel uncomfortable.
+- Poor ventilation can increase indoor CO₂ levels significantly, causing:
+  - Reduced concentration
+  - Sleepiness
+  - Headaches
+  - Reduced productivity
 
-Limitations:
-❌ Depends on human observation
-❌ Delay in response
-❌ No continuous monitoring
-2. Commercial Air Quality Monitors
-Approach:
-Devices display:
+- Studies show that increased CO₂ concentration in classrooms is associated with reduced cognitive performance.
 
-CO₂
+---
 
-PM2.5
+# 🏫 Real-Life Example
 
-Temperature
+### Scenario:
 
-Humidity
+A classroom with:
 
-Limitations:
-❌ Only monitoring
-❌ No automatic corrective action
-❌ Expensive for large-scale classroom deployment
-💡 Proposed Solution
-Smart Air Quality Monitoring and Automated Response System
-A low-cost embedded system that:
+- 40 students
+- Closed windows
+- AC running continuously
 
-Continuously monitors air quality parameters
-
-Classifies environment condition
-
-Automatically activates corrective actions
-
-
-
+After several hours:
