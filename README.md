@@ -2,7 +2,7 @@
 
 ## 🚨 Automated Indoor Air Quality Monitoring and Ventilation System using ESP32
 
-![Project Banner](https://via.placeholder.com/1200x400)
+(https://via.placeholder.com/1200x400)
 
 ---
 
@@ -202,7 +202,11 @@ Fresh Air Circulation Improves
 
 
  OLED Display
+
+
       |
+
+
  Status Information
 
 
